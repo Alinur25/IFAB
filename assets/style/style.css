@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+/* Header */
+header {
+    height: 132px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo>img {
+    width: 263px;
+}
+
+.now {
+    color: #004BA9 !important;
+    border-bottom: 2px solid #004BA9;
+}
+
+.header-nav>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 81px;
+    color: #6D6D6D;
+}
+/* Main */
+.main {
+    position: absolute;
+    background: url(../images/background.svg) no-repeat ;
+    z-index: 2;
+    /* background: url(/home/alinur/Desktop/aktan/assets/images/background-blue.svg); */
+    background-color: rgba(129 141 221 / 20%);
+    background-size: cover;
+    padding: 0;
+    height: 1010px;
+    width: 100%;
+    /* margin-bottom: 1000px; */
+}
+
+.main-heading {
+    margin-bottom: 100px;
+}
+
+.main-heading>h1 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #004BA9;
+    margin-top: 120px;
+}
+
+.main-heading>span {
+    font-size: 24px;
+}
+
+.main-btn {
+    border: 0;
+    cursor: pointer;
+    padding: 26px 36px;
+    margin-top: 120px;
+    background: #F87933;
+    border-radius: 38px;
+    color: #fff;
+}
+/* Advantages */
+.advantages {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    padding: 25px;
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(99.1deg, #004BA9 10.74%, #023779 111.87%);
+    opacity: 0.85;
+    border-radius: 30px;
+}
+
+.advantage>h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.advantage>span {
+    /* margin-top: 10px; */
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Geography */
+.geography {
+    margin-top: 1100px;
+    margin-bottom: 200px;
+    background: #fff;
+    height: 600px;
+    width: 100%;
+}
+
+.geography-heading>h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #004BA9;
+    margin-bottom: 50px;
+}
+
+.geography-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.geography-map {
+    margin-right: 162px;
+}
+
+.geography-location {
+    width: 100%;
+}
+
+.geography-location>h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #1A1A1A;
+}
+
+.geography-location>div {
+    margin: 20px 0;
+}
+
+.geography-location>div>img {
+    margin-right: 15px;
+}
+
+.geography-location>div>span {
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+.geography-location a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Beleive */
+.believe {
+    margin-bottom: 160px;
+}
+
+.believe-heading>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #004BA9;
+    margin-bottom: 50px;
+}
+
+.believe-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.believe-logos>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 263px;
+    height: 115px;
+}
+
+
+/* Catalog */
+.catalog {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.catalog-heading {
+    margin-bottom: 50px;
+}
+
+.catalog-heading>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #004BA9;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog-card {
+    width: 276px;
+    height: 392px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+
+.catalog-card-inner {
+    height: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .card>img {
+    width: 230px;
+} */
+.card1 {
+    width: 230px;
+    height: 282px;
+}
+
+.card2 {
+    width: 230px;
+}
+
+.card3 {
+    height: 282px;
+    width: 230px;
+}
+
+.card4 {
+    height: 282px;
+    width: 230px;
+}
+
+.card5 {
+    height: 282px;
+    width: 230px;
+}
+
+.card-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-inner>span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-inner>button {
+    border: 0;
+    cursor: pointer;
+    background: #004BA9;
+    padding: 16px 11px;
+}
+
+/* slider and Application */
+.slider-and-application {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+/* Application */
+.application {
+    /* margin-bottom: 80px; */
+    margin-left: 88px;
+}
+
+
+.application-heading>h2{
+    font-weight: 700;
+    font-size: 56px;
+    color: #004BA9;
+}
+
+.application-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application-block>h3 {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.application-block input {
+    width: 90%;
+    padding: 25px 0 25px 35px;
+    margin-bottom: 15px;
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+}
+
+#application-about {
+    padding: 25px 0 114px 35px;
+}
+
+.application-block>button {
+    background: #F87933;
+    border-radius: 38px;
+    border: 0;
+    width: 398px;
+    padding: 26px 0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Location */
+.location {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location-map {
+    width: 60%;
+}
+ 
+.location-map>img {
+    width: 100%;
+} 
+
+.contacts {
+    width: 0%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts div {
+    margin-top: 10px;
+    display: flex;
+    width: 340px;
+}
+
+.contacts>div>span {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* footer */
+footer {
+    height: 100px;
+    margin-top: 100px;
+    background-color: #004BA9;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}

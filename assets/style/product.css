@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.container {
+    padding: 0 120px;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #E9E9E9;
+    box-shadow: 0px -2px 15px rgba(0, 0, 0, 0.18);
+    margin-bottom: 50px;
+}
+
+header {
+    height: 132px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo>img {
+    width: 263px;
+}
+
+.now {
+    color: #004BA9 !important;
+    border-bottom: 2px solid #004BA9;
+
+}
+
+.header-nav>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 81px;
+    color: #6D6D6D;
+}
+
+/* Main or conrainer */
+.main {
+    display: flex;
+}
+
+.container-header {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.container-header h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container-header a {
+    text-decoration: none;
+}
+
+.products-list {
+    width: 340px;
+    height: 840px;
+    border: 1px solid #E8E8E8;
+    padding: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 55px;
+}
+
+.products-list a {
+    display: block;
+}
+
+.products-list>.product-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+
+.products-list>a {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6D6D6D;
+    text-decoration: none;
+}
+/* main Products */
+.main-products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    width: 405px;
+    height: 554px;
+    border: 1.28009px solid #E8E8E8;
+    margin: 0 10px 15px;
+}
+
+.card-inner {
+    padding: 26px;
+}
+
+.card-img {
+    width: 353px;
+    height: 450px;
+}
+
+.card-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-links>span {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card-links>button {
+    border: 0;
+    cursor: pointer;
+    padding: 15px 15px;
+    background-color: #004BA9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    height: 100px;
+    margin-top: 100px;
+    background-color: #004BA9;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer span {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
